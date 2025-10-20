@@ -10,7 +10,7 @@ int main(int argc, char **argv) {
     uint64_t batch_size = 8 * 1024 * 1024;
     uint64_t memory_size = 8UL * 1024 * 1024 * 1024;
     if (argc < 2) {
-        printf("Usage: ./time_test file_path batch_size(optional) memory_size(optional)");
+        printf("Usage: ./time_test file_path batch_size(optional)");
         return 1;
     }
     if (argc > 2) {
